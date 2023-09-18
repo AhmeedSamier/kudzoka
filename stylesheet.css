@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+.bground{ 
+    
+    position: absolute;
+    z-index: -1000;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 0px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li a {
+    margin: 0 12px;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+.loginBtn img {
+    width: 120px;
+    height: 50px;
+}
+.loginBtn span {
+    position: absolute;
+    left: 88%;
+    top: 6%;
+    font-size: 20px;
+    color: #333;
+}
+.itema {
+    transition: 0.5s;
+}
+.itema a:hover{
+   
+}
+
+
+.firstDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    position: relative;
+}
+.divText{
+    padding-top: 130px;
+}
+.divText h3 {
+    font-size: 35px;
+}
+.divText h3 span {
+    color: #7a3d8a;
+}
+.divText h3 {
+    font-size: 55px;
+    color: #637279;
+   font-weight: 600;
+}
+.divImgs .background {
+    position: absolute;
+    width: 40%;
+    right: 10%;
+}
+.divText p {
+    color: #afafaf;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.divImgs .man {
+    position: absolute;
+    width: 20%;
+    left: 60%;
+    top: 0;
+}
+.divImgs .cloud {
+    position: absolute;
+    width: 22%;
+    left: 60%;
+    top: 350px;
+}  .waves {
+    position: absolute;
+    width: 90%;
+    top: 400px;
+    left: -18%;
+}  
+.sec2{
+    position: absolute;
+    width: 70%;
+    top: 800px;
+    left: 18%;
+    height: 65%;
+}
+.fast .delivery {
+    position: absolute;
+    top: 855px;
+    left: 8%;
+}
+.fast .tracking{
+    position: absolute;
+    top: 1001px;
+    left: 36%;
+}
+.fast .Discounts{
+    position: absolute;
+    top: 1250px;
+    left: 60%;
+}
+.fast{
+    text-align: center;
+}
+.fast h3{
+    color: #999;
+    font-size: 25px;
+}
+.fast p{
+    font-size: 20px;
+    color: #b9b9b9;
+    font-weight: 750;
+}   
+.KUDZOKAl{
+    position: absolute;
+    top: 1250px;
+    left: 10%;
+}
+.choose  {
+    position: absolute;
+    top: 100px;
+    left: 20%;
+}
+.choose p{
+    color: white;
+    font-size: 25px
+}
+.choose h3{
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
+.support{
+    padding-top: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #637279;
+    font-size: 25px;
+ }
+ .theEnd  {
+    
+    
+    
+    
+   
+ }
+ .footer {
+    position: relative;
+    height: 60vh;
+    
+}
+
+.bgfooter {
+    position: absolute;
+    top: 2200px;
+    width: 1700px;
+    height: 90%;
+    z-index:-11; ;
+   
+}
+.people {
+    position: absolute;
+    width: 40vw;
+    right: 7%;
+    top: 2400px;
+    bottom: 0%;
+}
+.footer.End1 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+}
+.End1 .f_Btn {
+    position: relative;
+    width: 130px;
+    height: 50px;
+    margin-right: 50px;
+    right: -150px;
+    bottom: -350px;
+}
+.End1 .f_Btn .btnImg {
+    width: 130px;
+    height: 50px;
+    
+}
+.End1 .f_Btn div {
+    position: absolute;
+    left: 10%;
+    bottom: 40%;
+    display: flex;
+    align-items: center;
+}
+.End1 .f_Btn div p {
+    font-size: 15px;
+    color: #333;
+}
+.End1 .f_Btn span {
+    display: block;
+    color: #7a3d8a;
+    font-size: 19px;
+}
+.social{
+    margin-top: 380px;
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+}
+.End1 ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-top: 30px;
+    text-decoration: none;
+    margin-left: 160px;
+
+}
+
+.End1 ul li a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+
+}
